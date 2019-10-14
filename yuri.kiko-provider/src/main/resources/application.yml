@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: yuri.kiko
+  profiles:
+    active: local
+swagger:
+  base-package: kiko-wangwang.controller
+  info:
+    title: yuri.kiko
+server:
+  error:
+    include-stacktrace: always
+    include-exception: true
+logging:
+  file: 'logs/${spring.application.name}.log'
